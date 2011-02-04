@@ -466,6 +466,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = ZSyncInstaller;
+				SDKROOT = macosx10.6;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
@@ -491,6 +492,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = ZSyncInstaller;
+				SDKROOT = macosx10.6;
 				WRAPPER_EXTENSION = bundle;
 				ZERO_LINK = NO;
 			};
@@ -515,8 +517,10 @@
 					"\"$(SRCROOT)/../SharedCode\"",
 					"\"$(SRCROOT)/../DesktopCode\"",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_CFLAGS = "-DDEBUG";
 				PRODUCT_NAME = ZSyncDaemon;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -536,7 +540,9 @@
 					"\"$(SRCROOT)/../SharedCode\"",
 					"\"$(SRCROOT)/../DesktopCode\"",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = ZSyncDaemon;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};
